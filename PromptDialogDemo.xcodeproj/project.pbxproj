@@ -15,6 +15,11 @@
 		40D88B761E1CC9320015F0FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D88B741E1CC9320015F0FC /* LaunchScreen.storyboard */; };
 		40D88B811E1CC9320015F0FC /* PromptDialogDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88B801E1CC9320015F0FC /* PromptDialogDemoTests.m */; };
 		40D88B8C1E1CC9320015F0FC /* PromptDialogDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88B8B1E1CC9320015F0FC /* PromptDialogDemoUITests.m */; };
+		40D88B9B1E1CCA640015F0FC /* UIView+SetRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88B9A1E1CCA640015F0FC /* UIView+SetRect.m */; };
+		40D88B9E1E1CDC950015F0FC /* CustomPromptDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88B9D1E1CDC950015F0FC /* CustomPromptDialogView.m */; };
+		40D88BA11E1CECD40015F0FC /* OrdinaryPromptDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88BA01E1CECD40015F0FC /* OrdinaryPromptDialogView.m */; };
+		40D88BA41E1DD9DB0015F0FC /* SimplePromptDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88BA31E1DD9DB0015F0FC /* SimplePromptDialogView.m */; };
+		40D88BA71E1E2D800015F0FC /* ComplexPromptDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D88BA61E1E2D800015F0FC /* ComplexPromptDialogView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		40D88B871E1CC9320015F0FC /* PromptDialogDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PromptDialogDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D88B8B1E1CC9320015F0FC /* PromptDialogDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PromptDialogDemoUITests.m; sourceTree = "<group>"; };
 		40D88B8D1E1CC9320015F0FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D88B991E1CCA640015F0FC /* UIView+SetRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SetRect.h"; sourceTree = "<group>"; };
+		40D88B9A1E1CCA640015F0FC /* UIView+SetRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SetRect.m"; sourceTree = "<group>"; };
+		40D88B9C1E1CDC950015F0FC /* CustomPromptDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPromptDialogView.h; sourceTree = "<group>"; };
+		40D88B9D1E1CDC950015F0FC /* CustomPromptDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPromptDialogView.m; sourceTree = "<group>"; };
+		40D88B9F1E1CECD40015F0FC /* OrdinaryPromptDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrdinaryPromptDialogView.h; sourceTree = "<group>"; };
+		40D88BA01E1CECD40015F0FC /* OrdinaryPromptDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrdinaryPromptDialogView.m; sourceTree = "<group>"; };
+		40D88BA21E1DD9DB0015F0FC /* SimplePromptDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePromptDialogView.h; sourceTree = "<group>"; };
+		40D88BA31E1DD9DB0015F0FC /* SimplePromptDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePromptDialogView.m; sourceTree = "<group>"; };
+		40D88BA51E1E2D800015F0FC /* ComplexPromptDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComplexPromptDialogView.h; sourceTree = "<group>"; };
+		40D88BA61E1E2D800015F0FC /* ComplexPromptDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComplexPromptDialogView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +124,16 @@
 				40D88B721E1CC9320015F0FC /* Assets.xcassets */,
 				40D88B741E1CC9320015F0FC /* LaunchScreen.storyboard */,
 				40D88B771E1CC9320015F0FC /* Info.plist */,
+				40D88B991E1CCA640015F0FC /* UIView+SetRect.h */,
+				40D88B9A1E1CCA640015F0FC /* UIView+SetRect.m */,
+				40D88B9F1E1CECD40015F0FC /* OrdinaryPromptDialogView.h */,
+				40D88BA01E1CECD40015F0FC /* OrdinaryPromptDialogView.m */,
+				40D88BA21E1DD9DB0015F0FC /* SimplePromptDialogView.h */,
+				40D88BA31E1DD9DB0015F0FC /* SimplePromptDialogView.m */,
+				40D88BA51E1E2D800015F0FC /* ComplexPromptDialogView.h */,
+				40D88BA61E1E2D800015F0FC /* ComplexPromptDialogView.m */,
+				40D88B9C1E1CDC950015F0FC /* CustomPromptDialogView.h */,
+				40D88B9D1E1CDC950015F0FC /* CustomPromptDialogView.m */,
 				40D88B661E1CC9320015F0FC /* Supporting Files */,
 			);
 			path = PromptDialogDemo;
@@ -274,6 +299,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				40D88B6E1E1CC9320015F0FC /* ViewController.m in Sources */,
+				40D88BA71E1E2D800015F0FC /* ComplexPromptDialogView.m in Sources */,
+				40D88B9E1E1CDC950015F0FC /* CustomPromptDialogView.m in Sources */,
+				40D88BA11E1CECD40015F0FC /* OrdinaryPromptDialogView.m in Sources */,
+				40D88B9B1E1CCA640015F0FC /* UIView+SetRect.m in Sources */,
+				40D88BA41E1DD9DB0015F0FC /* SimplePromptDialogView.m in Sources */,
 				40D88B6B1E1CC9320015F0FC /* AppDelegate.m in Sources */,
 				40D88B681E1CC9320015F0FC /* main.m in Sources */,
 			);
