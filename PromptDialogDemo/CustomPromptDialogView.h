@@ -31,7 +31,6 @@
 @property (nonatomic, strong)  NSString * returnButtonText;
 
 
-
 - (void)setUpPromptDialogStyle;
 
 - (void)show;

@@ -120,20 +120,12 @@
 				40D88B6A1E1CC9320015F0FC /* AppDelegate.m */,
 				40D88B6C1E1CC9320015F0FC /* ViewController.h */,
 				40D88B6D1E1CC9320015F0FC /* ViewController.m */,
-				40D88B6F1E1CC9320015F0FC /* Main.storyboard */,
+				40D88C581E2C6F6D0015F0FC /* 弹窗三种基本形式 */,
+				40D88C571E2C6F480015F0FC /* 父类 */,
 				40D88B721E1CC9320015F0FC /* Assets.xcassets */,
-				40D88B741E1CC9320015F0FC /* LaunchScreen.storyboard */,
 				40D88B771E1CC9320015F0FC /* Info.plist */,
-				40D88B991E1CCA640015F0FC /* UIView+SetRect.h */,
-				40D88B9A1E1CCA640015F0FC /* UIView+SetRect.m */,
-				40D88B9F1E1CECD40015F0FC /* OrdinaryPromptDialogView.h */,
-				40D88BA01E1CECD40015F0FC /* OrdinaryPromptDialogView.m */,
-				40D88BA21E1DD9DB0015F0FC /* SimplePromptDialogView.h */,
-				40D88BA31E1DD9DB0015F0FC /* SimplePromptDialogView.m */,
-				40D88BA51E1E2D800015F0FC /* ComplexPromptDialogView.h */,
-				40D88BA61E1E2D800015F0FC /* ComplexPromptDialogView.m */,
-				40D88B9C1E1CDC950015F0FC /* CustomPromptDialogView.h */,
-				40D88B9D1E1CDC950015F0FC /* CustomPromptDialogView.m */,
+				40D88B6F1E1CC9320015F0FC /* Main.storyboard */,
+				40D88B741E1CC9320015F0FC /* LaunchScreen.storyboard */,
 				40D88B661E1CC9320015F0FC /* Supporting Files */,
 			);
 			path = PromptDialogDemo;
@@ -163,6 +155,30 @@
 				40D88B8D1E1CC9320015F0FC /* Info.plist */,
 			);
 			path = PromptDialogDemoUITests;
+			sourceTree = "<group>";
+		};
+		40D88C571E2C6F480015F0FC /* 父类 */ = {
+			isa = PBXGroup;
+			children = (
+				40D88B9C1E1CDC950015F0FC /* CustomPromptDialogView.h */,
+				40D88B9D1E1CDC950015F0FC /* CustomPromptDialogView.m */,
+			);
+			name = "父类";
+			sourceTree = "<group>";
+		};
+		40D88C581E2C6F6D0015F0FC /* 弹窗三种基本形式 */ = {
+			isa = PBXGroup;
+			children = (
+				40D88B9F1E1CECD40015F0FC /* OrdinaryPromptDialogView.h */,
+				40D88BA01E1CECD40015F0FC /* OrdinaryPromptDialogView.m */,
+				40D88BA21E1DD9DB0015F0FC /* SimplePromptDialogView.h */,
+				40D88BA31E1DD9DB0015F0FC /* SimplePromptDialogView.m */,
+				40D88BA51E1E2D800015F0FC /* ComplexPromptDialogView.h */,
+				40D88BA61E1E2D800015F0FC /* ComplexPromptDialogView.m */,
+				40D88B991E1CCA640015F0FC /* UIView+SetRect.h */,
+				40D88B9A1E1CCA640015F0FC /* UIView+SetRect.m */,
+			);
+			name = "弹窗三种基本形式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,6 +553,7 @@
 				40D88B921E1CC9320015F0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D88B931E1CC9320015F0FC /* Build configuration list for PBXNativeTarget "PromptDialogDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +562,7 @@
 				40D88B951E1CC9320015F0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D88B961E1CC9320015F0FC /* Build configuration list for PBXNativeTarget "PromptDialogDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +571,7 @@
 				40D88B981E1CC9320015F0FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

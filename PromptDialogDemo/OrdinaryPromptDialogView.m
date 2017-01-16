@@ -47,16 +47,14 @@
     self.lineView.backgroundColor = [UIColor grayColor];
     [self.smallView addSubview:self.lineView];
     
-    self.cancelButton = [[UIButton alloc] initWithFrame:CGRectMake(0, self.label.bottom, self.smallView.frame.size.width / 2.0f, 45)];
+    self.cancelButton     = [[UIButton alloc] initWithFrame:CGRectMake(0, self.label.bottom, self.smallView.frame.size.width / 2.0f, 45)];
     self.cancelButton.tag = kCancelButton;
-//    [self.cancelButton setTitle:@"取消" forState:UIControlStateNormal];
     [self.cancelButton setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
     [self.cancelButton addTarget:self action:@selector(buttonEvent:) forControlEvents:UIControlEventTouchUpInside];
     [self.smallView addSubview:self.cancelButton];
     
     self.confirmButton = [[UIButton alloc] initWithFrame:CGRectMake(self.smallView.frame.size.width / 2.0f, self.label.frame.size.height, self.smallView.frame.size.width / 2.0f, 45)];
     self.confirmButton.tag = kConfirmButton;
-//    [self.confirmButton setTitle:@"确定" forState:UIControlStateNormal];
     [self.confirmButton setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
     [self.confirmButton addTarget:self action:@selector(buttonEvent:) forControlEvents:UIControlEventTouchUpInside];
     [self.smallView addSubview:self.confirmButton];
